@@ -11,7 +11,8 @@ DATA_DIR = "data/rag_docs"  # thư mục chứa tài liệu RAG
 EMBED_MODEL = "all-MiniLM-L6-v2"   # nhẹ, nhanh; đổi tuỳ thích
 K = 4   # số doc lấy về từ RAG
 MAX_TURNS_HISTORY = 6
-MODEL_NAME = r"C:\Users\QuangThai\Desktop\AI VN\Đồ án NLP\DA\model.gguf"  # model đã convert sang gguf
+MODEL_NAME = "TNQT14/Llama-3.2-1B-Instruct-Chat-sft-2"
+ # model đã convert sang gguf
 # ======================
 
 

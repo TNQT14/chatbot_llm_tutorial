@@ -44,4 +44,4 @@ def create_app(index, texts, metas, embed_model):
         state = gr.State([])
         msg = gr.Textbox(show_label=False, placeholder="Nhập tin nhắn và Enter để gửi...")
         msg.submit(respond, [msg, state], [msg, state, chatbot])
-        demo.launch(server_name="0.0.0.0", server_port=7860, show_api=False)
+        demo.launch(server_name="127.0.0.1", server_port=7860, show_api=False)
